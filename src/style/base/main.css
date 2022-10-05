@@ -1,0 +1,38 @@
+@import url("../base/icon.css");
+@import url("../base/button.css");
+@import url("../base/input.css");
+@import url("../base/combobox.css");
+@import url("../base/table.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #121212;
+  font-family: GoogleSans;
+  font-size: 14px;
+}
+
+
+@font-face {
+  font-family: GoogleSans;
+  src: url("../../assets/Fonts/GoogleSans-Regular.77b210bc.woff2");
+
+}
+@font-face {
+  font-family: GoogleSans Bold;
+  src: url("../../assets/Fonts/GoogleSans-Bold.5aa86344.woff2");
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+  padding: 0 0 0 16px;
+}
+.text-align-right {
+  text-align: right;
+}
+
+.focus{
+  border: 1px solid #2979ff;
+}

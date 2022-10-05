@@ -1,0 +1,12 @@
+.input{
+    padding: 9px 12px;
+    min-height: 34px;    
+    border-radius: 3.5px;
+}
+.input:hover{
+    border-color: #2979ff;
+}
+.input:focus{
+    outline: none;
+    border-color: #2979ff;
+}

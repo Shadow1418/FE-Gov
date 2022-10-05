@@ -1,0 +1,190 @@
+.icon-20{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+.icon-24{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 24px;
+}
+.icon-32{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+}
+
+/* HEADER */
+.icon-sibar{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -192px -0px ;
+}
+
+.icon-notify{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -24px -48px;
+}
+
+.header__right__icon-ask{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -48px -48px;
+    cursor: pointer;
+}
+
+.header__acount__avatar{
+    background-image: url("../../assets/Icons/getavatar.png");
+    border-radius: 50%;
+
+}
+
+
+/* MENU */
+.menu-item-container:hover .icon-overview{
+    background-image: url("../../assets/Icons/ic_dashboard.overview_active.svg") ;
+}
+.menu-item-container:hover .icon-emulation{
+    background-image: url("../../assets/Icons/ic_movement_active.svg") ;
+}
+.menu-item-container:hover .icon-reward{
+    background-image: url("../../assets/Icons//ic_reward_active.svg") ;
+}
+.menu-item-container:hover .icon-decision{
+    background-image: url("../../assets/Icons/ic_decision_menu_active.svg") ;
+}
+.menu-item-container:hover .icon-profile{
+    background-image: url("../../assets/Icons/ic_profile_active.svg") ;
+}
+.menu-item-container:hover .icon-search{
+    background-image: url("../../assets/Icons/ic_search_active.svg") ;
+}
+.menu-item-container:hover .icon-report{
+    background-image: url("../../assets/Icons/ic_report_active.svg") ;
+}
+.menu-item-container.router-link-active .icon-category,
+.menu-item-container:hover .icon-category{
+    background-image: url("../../assets/Icons/ic_category_active.svg") ;
+}
+.menu-item-container:hover .icon-setting{
+    background-image: url("../../assets/Icons/ic_setting_active.svg") ;
+}
+.menu-item-container:hover .icon-guide{
+    background-image: url("../../assets/Icons/ic_guide_active.svg") ;
+}
+
+.icon-overview{
+    background-image: url("../../assets/Icons/ic_dashboard_overview.svg");
+}
+.icon-emulation{
+    background-image: url("../../assets/Icons/ic_movement.svg");
+}
+.icon-reward{
+    background-image: url("../../assets/Icons/ic_reward_default.svg");
+}
+.icon-decision{
+    background-image: url("../../assets/Icons/ic_decision_menu_default.svg");
+}
+.icon-profile{
+    background-image: url("../../assets/Icons/ic_profile_default.svg");
+}
+.icon-search{
+    background-image: url("../../assets/Icons/ic_search_default.svg");
+}
+.icon-report{
+    background-image: url("../../assets/Icons/ic_report_default.svg");
+}
+.icon-category{
+    background-image: url("../../assets/Icons/ic_category_default.svg");
+}
+.icon-setting{
+    background-image: url("../../assets/Icons/ic_setting_default.svg");
+}
+.icon-guide{
+    background-image: url("../../assets/Icons/ic_guide_default.svg");
+}
+
+.icon-toggle{
+    background-image: url("../../assets/Icons/ic_toggle.svg");
+}
+
+.icon-arrow-right{
+    background-image: url("../../assets/Icons/ic_arrow_black_right.svg");
+    position: absolute;
+    right: 12px;
+}
+
+/* CONTENT */
+.toolbar__left__search__icon{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -289px -24px ;
+
+}
+.icon-search-toolbar{
+    border: 1px solid #ccc;
+    border-left: unset;
+    background-color: unset;
+    border-radius: 0 4px 4px 0;
+}
+
+.icon-filter{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -96px -48px;
+    border: none;
+    margin: -7px 5px;
+}
+
+.icon-add{
+    background-image: url("../../assets/Icons/ic_add.PNG") !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+/* Table */
+.icon-active{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color : #2979ff;
+}
+
+.edit{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") 0 -72px;
+    border-radius: 50%;
+}
+.option-more{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -167px -48px;
+    border-radius: 50%;
+}
+
+/* Common*/
+.icon-down{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -144px -48px ;
+    cursor: pointer;
+}
+
+.icon-check-box{
+    background-image: url("../../assets/Icons/checkbox_grey.svg");
+}
+.icon-check-box:hover{
+    background-image: url("../../assets/Icons/ic_checkbox_hover.svg");
+}
+.icon-check-box.check-box--active{
+    background-image: url("../../assets/Icons/ic_checkbox_active.svg");
+    height: 16px;
+    width: 16px;
+}
+.check-box-not-all{
+    background: url("../../assets/Icons/CeGo_Sprites.svg") -544px -144px ;
+    height: 16px;
+    width: 16px;
+}
+
+.radio-check{
+    background: url("../../assets/Icons/CeGo_Sprites.svg") -28px -188px;
+}
+
+/* PAGGING */
+.btn-pre{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -218px 0;
+}
+.btn-next{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -238px -0;
+}

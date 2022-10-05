@@ -1,0 +1,66 @@
+.btn{
+    min-height: 36px;
+    min-width: 80px;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 4px;
+    white-space: nowrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background: #2979ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn-cancel{
+    border: 1px solid #e0e1ef;
+    color: #121212;
+    background: #fff;
+    padding: 9px 16px;
+}
+.btn-cancel:hover{
+    background: #ebebeb;
+}
+.btn-save-add{
+    border: 1px solid #2979ff!important;
+    color: #2979ff;
+    background: #fff;
+}
+.btn-save-add:hover{
+    background: #ebebeb;
+}
+
+.btn-add-category{    
+    background-repeat: no-repeat;
+    background-position: 8px center; 
+    padding-left: 34px;
+    padding-right: 16px; 
+    background-size: 18px 18px;
+}
+.btn-page-check{    
+    background-repeat: no-repeat;
+    background-position: 38px center; 
+    background-size: 20px 20px;
+}
+
+.btn-close{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -240px -25px ;
+    border: none;
+}
+.btn-close:hover{
+    background: url("../../assets/Icons/sprites.06b14dc5.svg") -264px -25px ;
+    border: none;
+    cursor: pointer;
+}
+
+.btn .text {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}

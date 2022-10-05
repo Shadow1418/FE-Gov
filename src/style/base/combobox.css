@@ -1,0 +1,15 @@
+.combobox{
+    display: flex;
+    position: relative;
+    /* min-width: 150px;
+    width: 150px; */
+    box-sizing: border-box;
+    border-radius: 3.5px;
+}
+.combobox input{
+    flex: 1;
+    outline: unset;
+    border-radius: 3.5px 0 0 3.5px;
+    border-right: unset;
+    /* height: 32px; */
+}
